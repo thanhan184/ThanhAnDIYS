@@ -1,0 +1,15 @@
+/* p{
+    background-color: black; color: white
+}
+.le{
+    background-color: pink; color: blue;
+}
+#para3{
+    background-color: white; color: red;
+} */
+p{
+    font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: dotted underline;    
+}

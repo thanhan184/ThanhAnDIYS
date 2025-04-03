@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+        }
+        .banner img {
+            width: 100%;
+        }
+        .menu {
+            display: flex;
+            background: #333;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .featured {
+            margin-top: 20px;
+        }
+        .featured h2 {
+            display: flex;
+            align-items: center;
+        }
+        .featured h2 img {
+            width: 20px;
+            margin-right: 10px;
+        }
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .article {
+            width: 48%;
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .article img {
+            width: 100%;
+        }
+        .article button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="https://www.dignexus.com/assets/images/news-portal-banner.png" alt="Banner">
+        </div>
+        <div class="menu">
+            <a href="#">Trang chủ</a>
+            <a href="#">Tin tức</a>
+            <a href="#">Giải trí</a>
+            <a href="#">Thể thao</a>
+            <a href="#">Liên hệ</a>
+        </div>
+        <div class="featured">
+            <h2><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Star_icon_stylized.svg/2153px-Star_icon_stylized.svg.png"> Bài viết nổi bật</h2>
+            <div class="articles">
+                <div class="article">
+                    <img src="https://image.tinnhanhchungkhoan.vn/300x200/Uploaded/2025/wpxlcdjwi/2025_03_06/thumbnail-2-13-6806.png" alt="Bài 1">
+                    <p>VPS Investory - Chuyển đầu tư: Truyền cảm hứng</p>
+                    <button>Xem chi tiết</button>
+                </div>
+                <div class="article">
+                    <img src="https://tse-tesol.edu.vn/wp-content/uploads/2024/11/word-image-31706-1-300x200.png" alt="Bài 2">
+                    <p>Các cấp độ tiếng Anh cho trẻ em là gì?</p>
+                    <button>Xem chi tiết</button>
+                </div>
+                <div class="article">
+                    <img src="https://www.align.vn/storage/2024/09/Google-Business-Thumbnail-300x200.png" alt="Bài 3">
+                    <p>Hướng dẫn đăng ký Google Business Profile</p>
+                    <button>Xem chi tiết</button>
+                </div>
+                <div class="article">
+                    <img src="https://nanotravel.vn/wp-content/uploads/2024/03/image-1-300x200.png" alt="Bài 4">
+                    <p>Bà Nà Hills - điểm đến hàng đầu tại Đà Nẵng</p>
+                    <button>Xem chi tiết</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
