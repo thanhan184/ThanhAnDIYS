@@ -1,0 +1,90 @@
+.footer {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.coin-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-font p {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.footer1st {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.footer1st > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer2nd {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.learn-footer02 h4 {
+    user-select: none;
+    color: #0f172a;
+}
+
+.in4-contact img {
+    width: 35px;
+    height: auto;
+}
+/*  */
+.Inc {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa p và links */
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #cbd5e1;
+  }
+  
+.Inc p {
+    margin: 0;
+  }
+  
+.Inc .links {
+    display: flex;
+    gap: 15px; /* Khoảng cách giữa các link */
+  }
+  
+.Inc a {
+    color: #cbd5e1;
+    text-decoration: none;
+  }
+  
+.Inc a:hover {
+    text-decoration: underline;
+  }
+
+.footer3rd {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 130px;
+}
